@@ -1,0 +1,8 @@
+Origin: al3raQi (roothide Repo)
+Label: al3raQi (roothide Repo)
+Suite: stable
+Version: 1.1
+Codename: al3raQi (roothide Repo)
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: al3raQiroothide Jailbreak's repo
