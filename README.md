@@ -1,4 +1,4 @@
-### <p align="center">al3raQi Roothide Jailbreak's Repo
+### <p align="center">al3raQee Roothide Jailbreak's Repo
 
 	
 <p align="center">
