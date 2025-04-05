@@ -8,12 +8,7 @@
             "package": "com.bandarhl.bhtiktok",
             "url": "https://al3raqee.github.io/photo/TikTokDark1.jpg"
         },
-        {
-            "title": "IQ-Just-4-Me-QI",
-            "package": "com.al3raqi.iq.just4me.iq",
-            "url": "https://al3raqee.github.io/photo/FB-Download.jpg"
-        },
-        {
+          {
             "title": "IQ-Glass-QI",
             "package": "com.al3raqi.iq.glass.qi",
             "url": "https://al3raqee.github.io/photo/IQ-Glass-QI.jpg"
@@ -22,6 +17,11 @@
             "title": "IQ-xXx-IQ",
             "package": "com.al3raqe.iq-xxx-qi",
             "url": "https://al3raqee.github.io/photo/IQ-xXx-IQ.jpg"
+        },
+        {
+            "title": "IQ-Just-4-Me-QI",
+            "package": "com.al3raqi.iq.just4me.iq",
+            "url": "https://al3raqee.github.io/photo/Just4Me.jpg.jpg"
         }
     ]
 }
