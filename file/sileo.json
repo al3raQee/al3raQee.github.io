@@ -1,0 +1,24 @@
+{
+  "repo": {
+    "name": "al3raQee",
+    "url": "https://al3raQee.github.io",
+    "description": "rootful & rootless & roothide",
+    "icon": "https://al3raqi.github.io/photo/al3raQee.png",
+    "banner": "https://i.imgur.com/AFL1Mij.jpeg",
+    "packages": {
+      "type": "apt",
+      "url": "Packages"
+    },
+    "suite": "stable",
+    "version": "1.0",
+    "codename": "al3raQee",
+    "architectures": [
+      "iphoneos-arm",
+      "iphoneos-arm64",
+      "iphoneos-arm64e"
+    ],
+    "components": [
+      "main"
+    ]
+  }
+}
