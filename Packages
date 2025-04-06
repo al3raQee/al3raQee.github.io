@@ -79,23 +79,6 @@ Name: Single Mute
 Author: 82Flex <82flex@gmail.com>
 Icon: https://al3raqi.github.io/photo/al3raQee.png
 
-Package: com.al3raQi.debsmanager
-Architecture: iphoneos-arm64e
-Version: 1.87.1
-Section: scripts
-Maintainer: al3raQi Roothide Repo
-Depends: apt-utils
-Filename: ./debs//com.al3raQi.debsmanager_1.87.1_iphoneos-arm64e.deb
-Size: 3136
-MD5sum: 5993127b3226627c280ec6831b37f450
-SHA1: bc87a7ac835c9f88ba78bb21f1ecf40ff9caa10a
-SHA256: 61ba5dc994c884fc1b33fc331750ad330ac9b424d5877da89d5273ca9ca9ea7b
-SHA512: 1ec385720c2b449117e8a26f3318750845f18c0bbfc8777fa29a29739a3b4fdfb075e399e57db0c04718ff5f3e8b1357fbc50954796bfa0ba089425bc69725af
-Description: is a collection of scripts for easily managing repositories through Filza It simplifies tasks like adding updating and organizing repos efficiently.
-Name: Filza Debs Manager
-Author: al3raQi
-Icon: https://al3raqi.github.io/photo/al3raQee.png
-
 Package: com.al3raqe.storeswitcher
 Architecture: iphoneos-arm64e
 Version: 1.87.1
@@ -132,63 +115,6 @@ Description: YouTube No Ads & plays in the Background
 Author: al3raQe
 Name: YouTube Premium
 Icon: https://al3raqi.github.io/photo/al3raQee.png
-
-Package: com.al3raqee.iq-xxx-qi
-Architecture: iphoneos-arm64
-Version: 1.87.1
-Section: Themes
-Maintainer: al3raQee Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: com.spark.snowboard, com.spark.snowboard.masks, com.spark.snowboard.effects
-Filename: ./debs//com.al3raqee.iq-xxx-qi_1.87.1_iphoneos-arm64.deb
-Size: 5344636
-MD5sum: 377a7e8caab2aae2b166732e375e31d7
-SHA1: b53f1a80be033924a70e7fdd9b24af8c91697fa1
-SHA256: 27d71c924bd91d18ef10fe792a02d188d5cab1533e4b38dd8fcd8919be3dfac5
-SHA512: a895dcda4338f2b7dbff66aebab2a849f05c8c0c0e91940f77a211d1206a979bb887e6656c53acd931162be6df62b31592c06b4f3da45c3d77968b04cc580ecd
-Description: IQ-xXx-QI is a great theme masks for your icons! Click the description to watch the theme image.
-Name: IQ-xXx-QI
-Author: al3raQee
-Depiction: https://al3raQee.github.io/photo/IQ-xXx-IQ.jpg
-Icon: https://al3raQee.github.io/photo/al3raQee.png
-
-Package: com.al3raqee.iq.glass.qi
-Architecture: iphoneos-arm64
-Version: 1.87.1
-Section: Themes
-Maintainer: al3raQee Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: com.spark.snowboard, com.spark.snowboard.masks, com.spark.snowboard.effects
-Filename: ./debs//com.al3raqee.iq.glass.qi_1.87.1_iphoneos-arm64.deb
-Size: 194568
-MD5sum: a53f81432db3e15c8d0d02dc26819bad
-SHA1: e696669e325bada3a7cd2a356c2220b07cbee5ce
-SHA256: 8c722119db867387b210c6c9dcdfb8e52f2eb5aa716bcfd94d1e93fe54b07775
-SHA512: 9fec5e0e66bf2d5d026317583d76dfba0e353cd0f4ceca1c020f8a82fe6493b6c63381e9a33c0836a61cd542fd87c0f88e9057727167a1d9c67e161bd99ab1d8
-Description: iQ.glass.Qi is a great theme masks for your icons! Click the description to watch the theme image.
-Name: IQ-Glass-QI
-Author: al3raQee
-Depiction: https://al3raQee.github.io/photo/IQ-Glass-QI.jpg
-Icon: https://al3raQee.github.io/photo/al3raQee.png
-
-Package: com.al3raqee.iq.just4me.iq
-Architecture: iphoneos-arm64
-Version: 1.87.1
-Section: Themes
-Maintainer: al3raQee Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: com.spark.snowboard, com.spark.snowboard.masks, com.spark.snowboard.effects
-Filename: ./debs//com.al3raqee.iq.just4me.iq_1.87.1_iphoneos-arm64.deb
-Size: 4582648
-MD5sum: 812cb409507eb635b10385b151226c52
-SHA1: c9eec98bdc9cf6080fe5c950f594e5cb82770bab
-SHA256: aa5937c7bc93a42ad62bfe48d2f366dd9eda802019d228b4ab3086d699f3347d
-SHA512: de1c7abb3b4d636816d164fe26358a1adcf717c2c7767b83cf50b03de8bd3eb929b7fa6772fe9cce02fd646cfcb5feedfc91879281027d5a7f5f8831d36516ad
-Description: IQ-Just-4-Me-QI is a great theme masks for your icons! Click the description to watch the theme image.
-Name: IQ-Just-4-Me-QI
-Author: al3raQee
-Depiction: https://al3raQee.github.io/photo/Just4Me.jpg
-Icon: https://al3raQee.github.io/photo/al3raQee.png
 
 Package: com.al3raqi.adsspeed
 Architecture: iphoneos-arm64e
