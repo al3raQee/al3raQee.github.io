@@ -96,25 +96,6 @@ Name: Filza Debs Manager
 Author: al3raQi
 Icon: https://al3raqi.github.io/photo/al3raQee.png
 
-Package: com.al3raqe.iq-xxx-qi
-Architecture: iphoneos-arm64e
-Version: 1.87.1
-Section: Themes
-Maintainer: al3raQe Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: com.spark.snowboard, com.spark.snowboard.masks, com.spark.snowboard.effects
-Filename: ./debs//com.al3raqe.iq-xxx-qi_1.87.1_iphoneos-arm64e.deb
-Size: 10877632
-MD5sum: c7c9264c876c0720b39fa3baa32bef4b
-SHA1: 5336cf90bc4a12675061c2236dc5d72d932ecfc1
-SHA256: 705f9d2a1984664373c2f02c7c84c277db7bed0d8862a7aeb32cb895c36991e0
-SHA512: 6d215aee083d6f60737090257bfb9c19512377857c64bacd6f54bf602db30b09264ebf4f7464acb6063d82c3681fe55566f5fa4ffe3ded2299f61ffe6aaedca3
-Description: Great theme masks for your icons!
-Name: IQ-xXx-QI
-Author: al3raQe
-Icon: https://al3raqi.github.io/photo/al3raQee.png
-Depiction: https://al3raqi.github.io/photo/IQ-xXx-IQ.jpg
-
 Package: com.al3raqe.storeswitcher
 Architecture: iphoneos-arm64e
 Version: 1.87.1
@@ -170,44 +151,6 @@ Author: lenglengyu
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/adsspeesileo
 Depiction: https://repo.lenglengyu.top/packageInfo/videoadsspeed.html
 Icon: https://al3raqi.github.io/photo/al3raQee.png
-
-Package: com.al3raqi.iq.glass.qi
-Architecture: iphoneos-arm64e
-Version: 1.87.1
-Section: Themes
-Maintainer: al3raQi Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: com.spark.snowboard, com.spark.snowboard.masks, com.spark.snowboard.effects
-Filename: ./debs//com.al3raqi.iq.glass.qi_1.87.1_iphoneos-arm64e.deb
-Size: 195902
-MD5sum: b88daeb18126e750ec0a9a0db790b018
-SHA1: 75924a1151ec2b3d6c9dca71f7caa7a6fba784ec
-SHA256: 72dcf414f530053e45fa2cb0adeedc3f536ea110eda598a2b2a295ae00b6ab87
-SHA512: 0a4879e554d46ca4326e01c7831a891a29b59963c114c20437b96d7d55f2830cd7738a7df78620370b6237a89d3d9fee4aa5b35ded6cb43e7e957dee52ea26ac
-Description: Great theme masks for your icons!
-Name: IQ-Glass-QI
-Author: al3raQe
-Icon: https://al3raqi.github.io/photo/al3raQee.png
-Depiction: https://al3raqi.github.io/photo/IQ-Glass-QI.jpg
-
-Package: com.al3raqi.iq.just4me.iq
-Architecture: iphoneos-arm64e
-Version: 1.87.1
-Section: Themes
-Maintainer: al3raQe Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: com.spark.snowboard, com.spark.snowboard.masks, com.spark.snowboard.effects
-Filename: ./debs//com.al3raqi.iq.just4me.iq_1.87.1_iphoneos-arm64e.deb
-Size: 9859936
-MD5sum: 0c2feefb604db20c2bd6e4503169fff1
-SHA1: 37c9a7f54decf72a652be0e3bedc71cd90ea8241
-SHA256: 9ed40ed52989fec356aad842375fbca66e86cd802c43a56ba0febef237e16fbc
-SHA512: d0cf3180d731a84d0d4d3557115bf4c25460457b3b4a94d859827ef56d3892a5cd8bc71964159ab37050bcfe86549fe0eeaee4f9a503efc75156c82dac67b3f7
-Description: Great theme masks for your icons!
-Name: IQ-Just-4-Me-QI
-Author: al3raQe
-Icon: https://al3raqi.github.io/photo/al3raQee.png
-Depiction: https://al3raqi.github.io/photo/Just4Me.jpg
 
 Package: com.anthopak.addtofolder-rootless
 Architecture: iphoneos-arm64e
