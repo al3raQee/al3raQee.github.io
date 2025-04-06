@@ -845,6 +845,24 @@ Name: Filza File Manager 64-bit
 Author: TIGI Software
 Icon: https://al3raqi.github.io/photo/al3raQee.png
 
+Package: com.yourepo.0xkuj.storeswitcher
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Tweaks
+Maintainer: 0xkuj
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11)
+Filename: ./debs//com.yourepo.0xkuj.storeswitcher_1.0.4_iphoneos-arm64e.deb
+Size: 15332
+MD5sum: 613db01d256a288cccaf261b120b6e52
+SHA1: 68c42dc5b3b9b8506d6afd3905a4122ce38ad71f
+SHA256: 29c03df0f85859ec15eadeca1106e80f7a43ac37ef4fe4f0a5e666af86175313
+SHA512: c81b9fe6c85b129a2cc26f9c71b48befa2ad60122372b4acd8ee060f55e7b64f65618f210ac36282eab3b0c60057f0bab071bb9c0b42c197a40ed1efed0b616f
+Description: Adds a button to switch account in App Store account page on iOS 11+.
+Name: StoreSwitcher 2
+Author: 0xkuj
+Icon: https://al3raqi.github.io/photo/al3raQee.png
+
 Package: dev.mineek.appstoretroller
 Architecture: iphoneos-arm64e
 Version: 0.0.1
