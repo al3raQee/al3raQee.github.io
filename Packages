@@ -709,6 +709,25 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytlegacy.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytlegacy.json
 Icon: https://al3raqi.github.io/photo/al3raQee.png
 
+Package: com.raulsaeed.bhtiktok++
+Architecture: iphoneos-arm64e
+Version: 1.8-119
+Section: Tweaks
+Maintainer: raul saeed
+Installed-Size: 792
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs//com.raulsaeed.bhtiktok++_1.8-119_iphoneos-arm64e.deb
+Size: 195204
+MD5sum: c79ff7bef75a62d245f4facb7217f1b5
+SHA1: e34c41e9c16f023d533f175eeedd64b94234f9e2
+SHA256: e2349c5ee9b045b5ef22889a81171571ccfc6f6cbf73e09171426eb251fa21e3
+SHA512: dd431919b438b8aa77afa732bae23f97a708fd7b580f7ea10cf09b58807fdbc436d472e3db89ca5ec3e8b1c79829b9fb699047199636dd8019723f12073c715a
+Description: An awesome tweak for TikTok!
+Name: BHTikTok++
+Author: raul saeed
+Icon: https://al3raqi.github.io/photo/al3raQee.png
+
 Package: com.simplycode.PostBox
 Architecture: iphoneos-arm64e
 Version: 0.8.1-4
@@ -884,6 +903,25 @@ Author: Lilliana
 SileoDepiction: https://paisseon.github.io/depictions/Satella.json
 Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Satella.json&name=Satella&dev=Lilliana
 Icon: https://paisseon.github.io/icons/Satella.png
+
+Package: jp.uzra.muteplay
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: uz.ra
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs//jp.uzra.muteplay_1.0_iphoneos-arm64e.deb
+Size: 5114
+MD5sum: 68b8da485b1c913fdd38ef5822d96db4
+SHA1: 7d98dba1ea07570019c999c5e724f75db2394e78
+SHA256: 71973ef90777ce4268ae06cdd6d743c3a93465441cb394ff56ee77a631fc6fdc
+SHA512: d4ef95c3626009d61c68b733c9e2235b1a0a02f31c11c1e8b376aac335cc5a63465ee7bc1018b07af9844dbc508c47a9aa921ea8a5a5a984d7e2ce529babf060
+Description: Mute notification sound while playing music
+Name: MutePlay
+Author: uz.ra
+Icon: https://uz-ra.github.io/icons/MutePlay.png
 
 Package: me.lau.atria
 Architecture: iphoneos-arm64e
