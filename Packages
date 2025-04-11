@@ -377,6 +377,27 @@ Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
 SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 
+Package: com.den.vibetok
+Architecture: iphoneos-arm64e
+Version: 1.2-11+debug
+Section: Tweaks
+Maintainer: DeNsor
+Installed-Size: 616
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs//com.den.vibetok_1.2-11+debug_iphoneos-arm64e.deb
+Size: 126896
+MD5sum: 27c6a5d9f02fad7ae5a9f35bdbdacea7
+SHA1: 0a89c1852185b6f23436a1409996af2b80c97075
+SHA256: d0dd07993efc05fc5c5696437fe7fffb2a7800d466f4005ff284b251be5f6ff4
+SHA512: 490ff95fb5f983439d73272b5c25b5b80423a22e4bcfbb9a5a3029ef5f7a448bce2cce3695ac5c8247c4bcea1f35e01eff869a391a4149a9407828f6b8564cb8
+Description: Make TikTok Better!
+Name: VibeTok
+Author: DeNsor
+Icon: https://github.com/6gr8/IGFormat/raw/main/VibeLogo.png
+Header: https://github.com/6gr8/IGFormat/raw/main/VibeLogo2.png
+SileoDepiction: https://raw.githubusercontent.com/6gr8/IGFormat/main/vibe.json
+
 Package: com.dvntm.infuseplus
 Architecture: iphoneos-arm64e
 Version: 2.0.1
