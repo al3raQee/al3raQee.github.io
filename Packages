@@ -1227,3 +1227,19 @@ Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
 Depiction: https://chariz.com/get/newterm-beta
 Support: https://hashbang.productions/support/
 
+Package: com.blockupdateioswhatsapp
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: al3raQee repo
+Filename: ./debs//com.blockupdateioswhatsapp_1.0_iphoneos-arm64e.deb
+Size: 12288
+MD5sum: 797e4b8ad061f3470ef1c0f2c215f6ab
+SHA1: 7b0718272cb7ab2ba3ab39f0731c2055873470b6
+SHA256: 0bb905362387b318ad6c33b21eda8a5a5f17a5bab913e86a3072bde85604ffd6
+SHA512: 4c4f3c95ae76b2b2cb6e97280056de2c502db9e4fe96f1e882e108e67b2f558850bd7a1cfa773f125ed42be5e8126ee42ff62f8120dd21e255535fef73d347b1
+Description: Block update alert for WhatsApp, tested on ios 14.3
+Name: BlockupdateiosWhatsApp
+Author: al3raQee
+Icon: https://al3raqi.github.io/photo/al3raQee.png
+
