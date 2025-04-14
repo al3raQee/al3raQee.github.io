@@ -269,6 +269,22 @@ Name: BHTwitter
 Author: Bandar Alruwaili
 Icon: https://al3raqi.github.io/photo/al3raQee.png
 
+Package: com.blockupdateioswhatsapp
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: al3raQee repo
+Filename: ./debs//com.blockupdateioswhatsapp_1.0_iphoneos-arm64e.deb
+Size: 12288
+MD5sum: 797e4b8ad061f3470ef1c0f2c215f6ab
+SHA1: 7b0718272cb7ab2ba3ab39f0731c2055873470b6
+SHA256: 0bb905362387b318ad6c33b21eda8a5a5f17a5bab913e86a3072bde85604ffd6
+SHA512: 4c4f3c95ae76b2b2cb6e97280056de2c502db9e4fe96f1e882e108e67b2f558850bd7a1cfa773f125ed42be5e8126ee42ff62f8120dd21e255535fef73d347b1
+Description: Block update alert for WhatsApp, tested on ios 14.3
+Name: BlockupdateiosWhatsApp
+Author: al3raQee
+Icon: https://al3raqi.github.io/photo/al3raQee.png
+
 Package: com.brend0n.nopastedfrom
 Architecture: iphoneos-arm64e
 Version: 0.0.1
@@ -533,7 +549,7 @@ SHA512: 84fbfa816c3541e27143e2111a048c80670da2da0fa55030d3449e8047f47a78bc90e1da
 Description: Battery Color based on the battery percentage.
 Name: ColorMyBattery
 Author: P2KDev <p2kdev@gmail.com>
-Icon: https://al3raqi.github.io/photo/al3raQee.png
+Icon: file:///Library/Application Support/ColorMyBattery/icon.png
 
 Package: com.leftyfl1p.carbridge13
 Architecture: iphoneos-arm64e
@@ -644,6 +660,174 @@ Name: betterAlarm
 Icon: https://img.chariz.cloud/icon/betteralarm/icon@3x.png
 Depiction: https://chariz.com/buy/betteralarm
 
+Package: com.p2kdev.alarmtime
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 212
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0),mobilesubstrate
+Filename: ./debs//com.p2kdev.alarmtime_1.1_iphoneos-arm64e.deb
+Size: 22384
+MD5sum: a3137630dd3af912f1d3c0c795e1a1da
+SHA1: 46d22abd6e7efa2a1bbd376255ae53710d26d189
+SHA256: 56eaa1580e556380e53b58402a839202960a46f03523afeaf6d9363304cfdb31
+SHA512: 1fece300a78e288129c4390afdb6245b4f7d6670f07fcb97e639aee4739e152bf05e2c970a040288f11e87f0a0565cd862a2ee2fadda3ed5f8b89c27f332165c
+Description: Show Time until alarm in the clock App!
+Name: AlarmTime
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.alarmtime
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.alarmtime/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.alarmtime.json
+
+Package: com.p2kdev.chasejbbypass
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs//com.p2kdev.chasejbbypass_1.0_iphoneos-arm64e.deb
+Size: 4538
+MD5sum: 329d6f1cc7c22e8b6dc9ff5f65cf0215
+SHA1: 637bb3551e437b152602092e29357d085f6ab573
+SHA256: 54cf53ee8df34cb8268aa286921ab6063e0c9d7208d96e26d6a43419db77f157
+SHA512: 4d67189473a3b78577712872f32deaf298d916fccb9a2568b7a18077a1110e2ff6c83b0f16525218db1291cd6de4cef1a92cff3cb642e49031b9e2603561e5d4
+Description: Chase Bank JB Detection Bypass!
+Name: ChaseJBBypass
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.chasejbbypass
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.chasejbbypass/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.chasejbbypass.json
+
+Package: com.p2kdev.colorcodedlogs
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 13)
+Filename: ./debs//com.p2kdev.colorcodedlogs_1.0_iphoneos-arm64e.deb
+Size: 6634
+MD5sum: b52680515a5c2ac9bcf1614354ff609a
+SHA1: 571e4d169ced8309cfb05796f7a1d1bf990d7157
+SHA256: df0b7e157bf2bdf6475c38544b8208fdcb683bf4eafa30a339cee78976e0c1f9
+SHA512: ed5cc5abdd5a64e77ee6524158e4dc203c4b8cf229582e8a09b5feb6e2ec53e6b4542d84003d6c32672171adfd815eb0df855eb3d813622ae9a8430bb10850e1
+Description: Color-coded recent MobilePhone app logs!
+Name: ColorCodedLogs
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.colorcodedlogs
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.colorcodedlogs/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.colorcodedlogs.json
+
+Package: com.p2kdev.deleteforeverxs
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 156
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs//com.p2kdev.deleteforeverxs_1.1_iphoneos-arm64e.deb
+Size: 8814
+MD5sum: 22c3291f3e8efc879f722f421da6746b
+SHA1: cb62ff3708deffaf802bb6f52de2e51f202b6f9c
+SHA256: 747689d584fe9e88506db63472c382f854830e6f405c0a741cfc0c7a8b816043
+SHA512: 1168af22720b153517f7d1639a5e35bb8d1f7211c9165e6238740c62ea1a13941f306252b91991c7fcb45c37f2a09a52e933ccb363240466885809a941454475
+Description: Delete Media with moving to Recently Deleted!
+Name: DeleteForeverXS
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.deleteforeverxs
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.deleteforeverxs/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.deleteforeverxs.json
+
+Package: com.p2kdev.facebooknoads
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs//com.p2kdev.facebooknoads_1.3_iphoneos-arm64e.deb
+Size: 7268
+MD5sum: 8b5a3cadd4a22a8a3eef818ad95ccfe4
+SHA1: 7580ff2d186fe05c480beb155211c4e08c7d00fc
+SHA256: 9026741fcb78ad7ed43fe8f31b6592e8981c0b490ed8f2c1376fb9a8af849be1
+SHA512: 9c5a67d7ee3bfa0a3334c866c7e210a1c8044bdef92ccb605533d56d2b79f932939c1ca570f9363d4a3302e03774b67ac3c9352ba5b8f8f172f0b220ac8dfa27
+Description: No Ads in the Facebook App!
+Name: FacebookNoAds
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.facebooknoads
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.facebooknoads/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.facebooknoads.json
+
+Package: com.p2kdev.instagramnoads
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs//com.p2kdev.instagramnoads_1.0_iphoneos-arm64e.deb
+Size: 7630
+MD5sum: 7453c0439acf9a350bcec7b794de0610
+SHA1: 5f4f2cb39c8f757b2b2d301f4dcd662f81b9f6fa
+SHA256: 3b58a4ecbc759850e944953b50472ad80aec2f5c4c88ea7e6e863ce0a28f0bdc
+SHA512: 4f012e65db3b2ccec722e3d7da90b5c11e712e0c6dbeb8e4b6976cf1aa763616d749111f9382bab2e0364b5b5908345d67814f91b6944f01fd5b3e1f16199afc
+Description: No Ads in the Instagram App!
+Name: InstagramNoAds
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.instagramnoads
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.instagramnoads/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.instagramnoads.json
+
+Package: com.p2kdev.ringpercentlabel
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0),mobilesubstrate
+Filename: ./debs//com.p2kdev.ringpercentlabel_1.1_iphoneos-arm64e.deb
+Size: 12898
+MD5sum: 78ce3e5fd833703e85de1cfb242c6ce6
+SHA1: 2553fd57322c1fc7fe2485f325168b6c025842b8
+SHA256: 49ff52dc695b32e6688abaee0e7654c8b4f4f36569a0fd4707577bdb3c3d5338
+SHA512: 4615591c556fadd57aabe7c13249d987dd87881f89bf74bc8e96298cb36f0d9368a730cdf1974cbd0fdc8b7061f3e29539d8ecbc747c777dddd658750c52b344
+Description: Percent Labels for the Battery Widget Rings!
+Name: RingPercentLabel
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.ringpercentlabel
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.ringpercentlabel/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.ringpercentlabel.json
+
+Package: com.p2kdev.safariblocker
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 424
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs//com.p2kdev.safariblocker_1.3.1_iphoneos-arm64e.deb
+Size: 51828
+MD5sum: 72870430c933921f83106bdd54cdcb23
+SHA1: 07c3aac4b34161f59867d52bb764f6f685ae544e
+SHA256: 7dd03642c49f97fc34921e844b83a9841edbf5b815d485632d8484b33f525427
+SHA512: 770719f307c5c6dbd37a79a9c142d98c9a371d4f663f7cd53efda0cc3e4da272fd3014ba8d8ca467fd706a4d5ba4cb44d336965878f51de3feee624dcaf3fb7e
+Description: Block New Tabs with Options!
+Name: SafariBlocker
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.safariblocker
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.safariblocker/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.safariblocker.json
+
 Package: com.p2kdev.simplebattery
 Architecture: iphoneos-arm64e
 Version: 1.2.1
@@ -665,6 +849,27 @@ Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.simplebattery/ico
 Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.simplebattery
 SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.simplebattery.json
 
+Package: com.p2kdev.twitternoads
+Architecture: iphoneos-arm64e
+Version: 1.2.5
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>, FoxfortMobile <foxfortmobile@gmail.com>
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs//com.p2kdev.twitternoads_1.2.5_iphoneos-arm64e.deb
+Size: 9934
+MD5sum: d49ed589170a032ee0cd84bf6176e210
+SHA1: 78d4b000cf804a89c6772b2c71a67f0f010451f1
+SHA256: d27f6a14e1340650140c4df6d3a8f2120097560ef3da78d8ba53a6e85d41cc0f
+SHA512: 952be56229d465b0f49dc0bcdfb3b2534693b9b09ff99f2b35202216ed45f162c7d09e8fdcf5f49fd76e80e657b2bafecc0a6295c0a226ba452641cf9bdd293e
+Description: No Ads in the Twitter App!
+Name: TwitterNoAds
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.twitternoads
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.twitternoads/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.twitternoads.json
+
 Package: com.p2kdev.underdock
 Architecture: iphoneos-arm64e
 Version: 1.3
@@ -684,6 +889,27 @@ Description: Useful actions on the Keyboard Dock View!
 Name: UnderDock
 Author: P2KDev <p2kdev@gmail.com>
 Icon: https://al3raqi.github.io/photo/al3raQee.png
+
+Package: com.p2kdev.videosunmute
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs//com.p2kdev.videosunmute_1.0_iphoneos-arm64e.deb
+Size: 8164
+MD5sum: e794b70ec709841be6ec70e6fbf525dc
+SHA1: ed9fcc0cdf3733b59751c6eda76cf1df35386845
+SHA256: 6835fa3552c887215bde0df773b7b3bcd36ce2e8f5892f8363ffe38b646cedaf
+SHA512: 7265e74ae138b382fd2037c9bcf4e8e39f14f66a4e72a73e676c7588234e356d71dc535dea102f8cb3da64c4fb77084c38674bbc1bac26a7b5aa58567d352c80
+Description: Unmute videos on opening in Photos App!
+Name: VideosUnmute
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.videosunmute
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.videosunmute/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.videosunmute.json
 
 Package: com.ps.recordpause
 Architecture: iphoneos-arm64e
@@ -1226,230 +1452,4 @@ Author: HASHBANG Productions <support@hbang.ws>
 Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
 Depiction: https://chariz.com/get/newterm-beta
 Support: https://hashbang.productions/support/
-
-Package: com.blockupdateioswhatsapp
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Tweaks
-Maintainer: al3raQee repo
-Filename: ./debs//com.blockupdateioswhatsapp_1.0_iphoneos-arm64e.deb
-Size: 12288
-MD5sum: 797e4b8ad061f3470ef1c0f2c215f6ab
-SHA1: 7b0718272cb7ab2ba3ab39f0731c2055873470b6
-SHA256: 0bb905362387b318ad6c33b21eda8a5a5f17a5bab913e86a3072bde85604ffd6
-SHA512: 4c4f3c95ae76b2b2cb6e97280056de2c502db9e4fe96f1e882e108e67b2f558850bd7a1cfa773f125ed42be5e8126ee42ff62f8120dd21e255535fef73d347b1
-Description: Block update alert for WhatsApp, tested on ios 14.3
-Name: BlockupdateiosWhatsApp
-Author: al3raQee
-Icon: https://al3raqi.github.io/photo/al3raQee.png
-
-Package: com.p2kdev.alarmtime
-Architecture: iphoneos-arm64e
-Version: 1.1
-Section: Tweaks
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 212
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0),mobilesubstrate
-Filename: ./debs//com.p2kdev.alarmtime_1.1_iphoneos-arm64e.deb
-Size: 22384
-MD5sum: a3137630dd3af912f1d3c0c795e1a1da
-SHA1: 46d22abd6e7efa2a1bbd376255ae53710d26d189
-SHA256: 56eaa1580e556380e53b58402a839202960a46f03523afeaf6d9363304cfdb31
-SHA512: 1fece300a78e288129c4390afdb6245b4f7d6670f07fcb97e639aee4739e152bf05e2c970a040288f11e87f0a0565cd862a2ee2fadda3ed5f8b89c27f332165c
-Description: Show Time until alarm in the clock App!
-Name: AlarmTime
-Author: P2KDev <p2kdev@gmail.com>
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.alarmtime
-Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.alarmtime/icon.png
-SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.alarmtime.json
-
-Package: com.p2kdev.chasejbbypass
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Tweaks
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 152
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs//com.p2kdev.chasejbbypass_1.0_iphoneos-arm64e.deb
-Size: 4538
-MD5sum: 329d6f1cc7c22e8b6dc9ff5f65cf0215
-SHA1: 637bb3551e437b152602092e29357d085f6ab573
-SHA256: 54cf53ee8df34cb8268aa286921ab6063e0c9d7208d96e26d6a43419db77f157
-SHA512: 4d67189473a3b78577712872f32deaf298d916fccb9a2568b7a18077a1110e2ff6c83b0f16525218db1291cd6de4cef1a92cff3cb642e49031b9e2603561e5d4
-Description: Chase Bank JB Detection Bypass!
-Name: ChaseJBBypass
-Author: P2KDev <p2kdev@gmail.com>
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.chasejbbypass
-Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.chasejbbypass/icon.png
-SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.chasejbbypass.json
-
-Package: com.p2kdev.colorcodedlogs
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Tweaks
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 152
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 13)
-Filename: ./debs//com.p2kdev.colorcodedlogs_1.0_iphoneos-arm64e.deb
-Size: 6634
-MD5sum: b52680515a5c2ac9bcf1614354ff609a
-SHA1: 571e4d169ced8309cfb05796f7a1d1bf990d7157
-SHA256: df0b7e157bf2bdf6475c38544b8208fdcb683bf4eafa30a339cee78976e0c1f9
-SHA512: ed5cc5abdd5a64e77ee6524158e4dc203c4b8cf229582e8a09b5feb6e2ec53e6b4542d84003d6c32672171adfd815eb0df855eb3d813622ae9a8430bb10850e1
-Description: Color-coded recent MobilePhone app logs!
-Name: ColorCodedLogs
-Author: P2KDev <p2kdev@gmail.com>
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.colorcodedlogs
-Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.colorcodedlogs/icon.png
-SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.colorcodedlogs.json
-
-Package: com.p2kdev.deleteforeverxs
-Architecture: iphoneos-arm64e
-Version: 1.1
-Section: Tweaks
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 156
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs//com.p2kdev.deleteforeverxs_1.1_iphoneos-arm64e.deb
-Size: 8814
-MD5sum: 22c3291f3e8efc879f722f421da6746b
-SHA1: cb62ff3708deffaf802bb6f52de2e51f202b6f9c
-SHA256: 747689d584fe9e88506db63472c382f854830e6f405c0a741cfc0c7a8b816043
-SHA512: 1168af22720b153517f7d1639a5e35bb8d1f7211c9165e6238740c62ea1a13941f306252b91991c7fcb45c37f2a09a52e933ccb363240466885809a941454475
-Description: Delete Media with moving to Recently Deleted!
-Name: DeleteForeverXS
-Author: P2KDev <p2kdev@gmail.com>
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.deleteforeverxs
-Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.deleteforeverxs/icon.png
-SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.deleteforeverxs.json
-
-Package: com.p2kdev.facebooknoads
-Architecture: iphoneos-arm64e
-Version: 1.3
-Section: Tweaks
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 172
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs//com.p2kdev.facebooknoads_1.3_iphoneos-arm64e.deb
-Size: 7268
-MD5sum: 8b5a3cadd4a22a8a3eef818ad95ccfe4
-SHA1: 7580ff2d186fe05c480beb155211c4e08c7d00fc
-SHA256: 9026741fcb78ad7ed43fe8f31b6592e8981c0b490ed8f2c1376fb9a8af849be1
-SHA512: 9c5a67d7ee3bfa0a3334c866c7e210a1c8044bdef92ccb605533d56d2b79f932939c1ca570f9363d4a3302e03774b67ac3c9352ba5b8f8f172f0b220ac8dfa27
-Description: No Ads in the Facebook App!
-Name: FacebookNoAds
-Author: P2KDev <p2kdev@gmail.com>
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.facebooknoads
-Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.facebooknoads/icon.png
-SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.facebooknoads.json
-
-Package: com.p2kdev.instagramnoads
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Tweaks
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 152
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs//com.p2kdev.instagramnoads_1.0_iphoneos-arm64e.deb
-Size: 7630
-MD5sum: 7453c0439acf9a350bcec7b794de0610
-SHA1: 5f4f2cb39c8f757b2b2d301f4dcd662f81b9f6fa
-SHA256: 3b58a4ecbc759850e944953b50472ad80aec2f5c4c88ea7e6e863ce0a28f0bdc
-SHA512: 4f012e65db3b2ccec722e3d7da90b5c11e712e0c6dbeb8e4b6976cf1aa763616d749111f9382bab2e0364b5b5908345d67814f91b6944f01fd5b3e1f16199afc
-Description: No Ads in the Instagram App!
-Name: InstagramNoAds
-Author: P2KDev <p2kdev@gmail.com>
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.instagramnoads
-Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.instagramnoads/icon.png
-SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.instagramnoads.json
-
-Package: com.p2kdev.ringpercentlabel
-Architecture: iphoneos-arm64e
-Version: 1.1
-Section: Tweaks
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 172
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0),mobilesubstrate
-Filename: ./debs//com.p2kdev.ringpercentlabel_1.1_iphoneos-arm64e.deb
-Size: 12898
-MD5sum: 78ce3e5fd833703e85de1cfb242c6ce6
-SHA1: 2553fd57322c1fc7fe2485f325168b6c025842b8
-SHA256: 49ff52dc695b32e6688abaee0e7654c8b4f4f36569a0fd4707577bdb3c3d5338
-SHA512: 4615591c556fadd57aabe7c13249d987dd87881f89bf74bc8e96298cb36f0d9368a730cdf1974cbd0fdc8b7061f3e29539d8ecbc747c777dddd658750c52b344
-Description: Percent Labels for the Battery Widget Rings!
-Name: RingPercentLabel
-Author: P2KDev <p2kdev@gmail.com>
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.ringpercentlabel
-Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.ringpercentlabel/icon.png
-SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.ringpercentlabel.json
-
-Package: com.p2kdev.safariblocker
-Architecture: iphoneos-arm64e
-Version: 1.3.1
-Section: Tweaks
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 424
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: ./debs//com.p2kdev.safariblocker_1.3.1_iphoneos-arm64e.deb
-Size: 51828
-MD5sum: 72870430c933921f83106bdd54cdcb23
-SHA1: 07c3aac4b34161f59867d52bb764f6f685ae544e
-SHA256: 7dd03642c49f97fc34921e844b83a9841edbf5b815d485632d8484b33f525427
-SHA512: 770719f307c5c6dbd37a79a9c142d98c9a371d4f663f7cd53efda0cc3e4da272fd3014ba8d8ca467fd706a4d5ba4cb44d336965878f51de3feee624dcaf3fb7e
-Description: Block New Tabs with Options!
-Name: SafariBlocker
-Author: P2KDev <p2kdev@gmail.com>
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.safariblocker
-Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.safariblocker/icon.png
-SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.safariblocker.json
-
-Package: com.p2kdev.twitternoads
-Architecture: iphoneos-arm64e
-Version: 1.2.5
-Section: Tweaks
-Maintainer: P2KDev <p2kdev@gmail.com>, FoxfortMobile <foxfortmobile@gmail.com>
-Installed-Size: 172
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs//com.p2kdev.twitternoads_1.2.5_iphoneos-arm64e.deb
-Size: 9934
-MD5sum: d49ed589170a032ee0cd84bf6176e210
-SHA1: 78d4b000cf804a89c6772b2c71a67f0f010451f1
-SHA256: d27f6a14e1340650140c4df6d3a8f2120097560ef3da78d8ba53a6e85d41cc0f
-SHA512: 952be56229d465b0f49dc0bcdfb3b2534693b9b09ff99f2b35202216ed45f162c7d09e8fdcf5f49fd76e80e657b2bafecc0a6295c0a226ba452641cf9bdd293e
-Description: No Ads in the Twitter App!
-Name: TwitterNoAds
-Author: P2KDev <p2kdev@gmail.com>
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.twitternoads
-Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.twitternoads/icon.png
-SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.twitternoads.json
-
-Package: com.p2kdev.videosunmute
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Tweaks
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 172
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs//com.p2kdev.videosunmute_1.0_iphoneos-arm64e.deb
-Size: 8164
-MD5sum: e794b70ec709841be6ec70e6fbf525dc
-SHA1: ed9fcc0cdf3733b59751c6eda76cf1df35386845
-SHA256: 6835fa3552c887215bde0df773b7b3bcd36ce2e8f5892f8363ffe38b646cedaf
-SHA512: 7265e74ae138b382fd2037c9bcf4e8e39f14f66a4e72a73e676c7588234e356d71dc535dea102f8cb3da64c4fb77084c38674bbc1bac26a7b5aa58567d352c80
-Description: Unmute videos on opening in Photos App!
-Name: VideosUnmute
-Author: P2KDev <p2kdev@gmail.com>
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.videosunmute
-Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.videosunmute/icon.png
-SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.videosunmute.json
 
