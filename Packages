@@ -168,7 +168,7 @@ SHA512: ddfab51907a40108f0eaa5939b686e44bdfce74f5842250af75d41354eb1885cf65287a2
 Description: iQ.glass.Qi is a great theme masks for your icons! Click the description to watch the theme image.
 Name: IQ-Glass-QI
 Author: al3raQee
-Depiction: https://al3raQee.github.io/photo/IQ-Glass-QI.jpg
+Depiction: https://al3raqee.github.io/depictions/IQ-Glass-QI.html
 Icon: https://al3raQee.github.io/photo/al3raQee.png
 
 Package: com.al3raqee.iq.just4me.iq
@@ -248,7 +248,9 @@ SHA512: c79c027cb34297b1a59206d5eb03be558097e97a7c17334f5c606df003e12998c2b149e6
 Description: An awesome tweak for TikTok!
 Name: BHTikTok Plus
 Author: dvntm
+Depiction: https://al3raqee.github.io/depictions/TikTokDark.html
 Icon: https://i.imgur.com/PKIhkrt.png
+
 
 Package: com.bandarhl.bhtwitter
 Architecture: iphoneos-arm64e
