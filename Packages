@@ -168,7 +168,7 @@ SHA512: ddfab51907a40108f0eaa5939b686e44bdfce74f5842250af75d41354eb1885cf65287a2
 Description: iQ.glass.Qi is a great theme masks for your icons! Click the description to watch the theme image.
 Name: IQ-Glass-QI
 Author: al3raQee
-Depiction: https://al3raqee.github.io/depictions/IQ-Glass-QI.html
+Depiction: https://al3raQee.github.io/photo/IQ-Glass-QI.jpg
 Icon: https://al3raQee.github.io/photo/al3raQee.png
 
 Package: com.al3raqee.iq.just4me.iq
@@ -187,7 +187,7 @@ SHA512: 8d1461bf60fc08d5500b99f1d441e64277d3e66408ea2598f8d7d14385feedd1533bf106
 Description: IQ-Just-4-Me-QI is a great theme masks for your icons! Click the description to watch the theme image.
 Name: IQ-Just-4-Me-QI
 Author: al3raQee
-Depiction: https://al3raQee.github.io/photo/Just4Me.png
+Depiction: https://al3raQee.github.io/photo/Just4Me.jpg
 Icon: https://al3raQee.github.io/photo/al3raQee.png
 
 Package: com.al3raqi.adsspeed
@@ -247,10 +247,8 @@ SHA256: bb127c345a104581da0b2f9c27440f1a7d938aeec8fda38e68886f94c538fa43
 SHA512: c79c027cb34297b1a59206d5eb03be558097e97a7c17334f5c606df003e12998c2b149e69347f1aa2e8d686a8f65c33706bef23393562f2013ef158272a0cd8b
 Description: An awesome tweak for TikTok!
 Name: BHTikTok Plus
-SileoDepiction: https://al3raqee.github.io/depictions/TikTokDark.html
-Depiction: https://al3raqee.github.io/depictions/TikTokDark.html
 Author: dvntm
-Icon: https://al3raqi.github.io/photo/al3raQee.png
+Icon: https://i.imgur.com/PKIhkrt.png
 
 Package: com.bandarhl.bhtwitter
 Architecture: iphoneos-arm64e
@@ -695,11 +693,11 @@ Installed-Size: 748
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
 Filename: ./debs//com.noisyflake.betteralarm_1.4.1_iphoneos-arm64e.deb
-Size: 314870
-MD5sum: 89d9bd0b50f9ae1fbaae4e90a13a58ae
-SHA1: ac52aa1d4e25a67a27e0f1f2fd1aa01cc45b159a
-SHA256: 1d77177d8d09a72eb290451073583e67850e94952ddb92888c659bef528cc212
-SHA512: 0b51f498188cce3d07e9303d8a6bbb3217015e0dc7937e673a52ee01d75551a4df0defba3201c82cdec19cf78909ff7fb46b3b9e9b815fb2ad8f349fb7c2ee42
+Size: 314852
+MD5sum: 09a9403e00fb4a45d9617fcfc663c0c5
+SHA1: 5fd2c06ead24505a85837c4f7614cf76077f4eb3
+SHA256: f6c56d33aab0576276e83ecce9c31561c237f2bed95129c679025eee020d51bd
+SHA512: 5d768fccdca6a33598b140672326707e7d16af9e071999aaba37eb2d5c0e6c26ffa6efd183b5065652c952a0b8fd81a52c6bceb8de3abd556402ac64745651ee
 Description: A beautiful timer and alarm screen
 Tag: cydia::commercial, compatible_min::ios14.0
 Author: NoisyFlake <support@noisyflake.com>
@@ -1475,6 +1473,28 @@ SileoDepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneo
 Author: Elias Limneos <limneoselias@gmail.com>
 Icon: https://al3raqi.github.io/photo/al3raQee.png
 
+Package: net.limneos.answeringmachinex-rootless
+Architecture: iphoneos-arm64e
+Version: 2.0-145
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 2628
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, net.limneos.libbulletin (>= 0.1-182) ,  firmware (>= 11.0)
+Conflicts: net.limneos.audiorecorder (<= 1.7-4)
+Filename: ./debs//net.limneos.answeringmachinex-rootless_2.0-145_iphoneos-arm64e.deb
+Size: 1235966
+MD5sum: b89c2149fa1dcff6872ae8936b5ab7b0
+SHA1: 735c6026a3db89e53cf657db0956ea9358ef6707
+SHA256: 5b67d08e7927a22d44ba8db084f0a2a6ce7373fe8308c3abd3e13016964a49ea
+SHA512: 9f1ea8e901b6372bd1f2f05efdf54c4222214fd2c93c83cd984c552f1a626697481dddff10f1737c3cac72950dfb3f0c3cac0a7ca0d0145e4a3a5c5462dcdeba
+Description: AnsweringMachine XS (iOS 11 to 18)
+Name: AnsweringMachine XS (rootless)
+Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.answeringmachinex
+SileoDepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.answeringmachinex
+Author: Elias Limneos <limneoselias@gmail.com>
+Icon: https://al3raqi.github.io/photo/al3raQee.png
+
 Package: net.limneos.audiorecorderdropbox-roothide
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -1529,6 +1549,25 @@ MD5sum: 52a5a60a4fdba43c49469428dd2e8210
 SHA1: 298b068426d1cbc0ad895a1456ce38f862adf29e
 SHA256: 233c36c5af01a2a9b49fc8cd4864132737b0ef32dfa7f4a32cd085dace913cea
 SHA512: e092d5dbb3b45ab82bee512a756dabc8a0129c52215c40b7d0195442321ca88b245c8562aaa7738898ef7ddf25107eec148e5ad988c5f57121a71f701d729edd
+Description: Simple library that displays bulletins
+Name: libbulletin
+Author: Elias Limneos
+Icon: https://al3raqi.github.io/photo/al3raQee.png
+
+Package: net.limneos.libbulletin
+Architecture: iphoneos-arm64e
+Version: 0.1-182
+Section: Tweaks
+Maintainer: Elias Limneos
+Installed-Size: 348
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs//net.limneos.libbulletin_0.1-182_iphoneos-arm64e.deb
+Size: 44262
+MD5sum: 0bca734a3d2b769ca9c905ce301bd4cc
+SHA1: 868f7126b037ce3dfc65928ba104f1056f417bb0
+SHA256: 997c8fee3406d3b9c84e4c832aba6668566b152f2dbb2c04fbbbe1854018dde7
+SHA512: 493ec1db4b090dfe91c7707ad4ff708aa5a79c9bcd0701c4bdb68065f9a1b9504fab58e1d8b73c290e69484492b845efbdc311976bf8c14c116781d4bbfbdb8e
 Description: Simple library that displays bulletins
 Name: libbulletin
 Author: Elias Limneos
