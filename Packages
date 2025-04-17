@@ -1762,3 +1762,27 @@ Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
 Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
 Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
+Package: com.ichitaso.otadisabler
+Architecture: iphoneos-arm64e
+Version: 0.6
+Section: System
+Maintainer: ichitaso
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs//com.ichitaso.otadisabler_0.6_iphoneos-arm64e.deb
+Size: 66980
+MD5sum: 35af64cdf44acae5108b8231bd98b3bc
+SHA1: a1ac35a333006d06d600db6a1a6a5c850d687c30
+SHA256: 99d259e88ff11860d1e34ca58e5a9f3de8c5397a6d950f45957a6cf538a545d9
+SHA512: f1be6097e442f87483cafd5ac007a07771ca4c70b9a489114d25cc8f79f8a2de53c917d6ecba3e8483b6b7efb63491c2978f96915a2cf16e9be2634030bf7857
+Homepage: https://ichitaso.com
+Description: Disable OTA and remove badges on home screen, etc.
+Name: OTADisabler
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/otadisabler.html
+SileoDepiction: https://cydia.ichitaso.com/depiction/otadisabler.json
+Icon: https://raw.githubusercontent.com/ichitaso/OTADisabler-App/main/OTADisabler/Icon-60%403x.png
+
+
+
