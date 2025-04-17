@@ -576,21 +576,20 @@ Name: ColorMyBattery
 Author: P2KDev <p2kdev@gmail.com>
 Icon: file:///Library/Application Support/ColorMyBattery/icon.png
 
-Package: com.leftyfl1p.carbridge13
+Package: com.al3raqee.carbridge
 Architecture: iphoneos-arm64e
 Version: 2.0.14
 Section: Tweaks
 Maintainer: leftyfl1p
-Installed-Size: 7344
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
 Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
-Filename: ./debs//com.leftyfl1p.carbridge13_2.0.14_iphoneos-arm64e.deb
-Size: 981010
-MD5sum: 87771233ee64254eed42a18452f73330
-SHA1: 37c6c3c20deed8ede0d83877e4324bb0782f37fe
-SHA256: a6800e0fede05953717baa6e55db1eff60eb72c2518f9878d517cdc5300e15d4
-SHA512: c939f22fb288182c6f4084b2857d16d5eac49cfa497fbca3a04c31478df33c4abfda6a24227efa4188a2580279c25667490161f9d2db68f4f966c16af8c6bfca
+Filename: ./debs//com.al3raqee.carbridge_2.0.14_iphoneos-arm64e.deb
+Size: 441112
+MD5sum: 937a4c22f16b583b427f946a936da93d
+SHA1: 5d3de6de1a3932b1dbfeebc1b4e54798bdf559d5
+SHA256: a2a416ddfb7639c19aad78f26e9cf9566fa85e40e4f6abd36999c7655f30229a
+SHA512: a9710785c41d0ef67f4538c6ae99d3326e26335d1382ca8c105bce886f9d4219c117f5c8ae6de097143b544fee7af710613a600e760859df7ba965c17db54eba
 Description: Open any app in CarPlay!
 Tag: cydia::commercial
 Name: CarBridge
