@@ -1334,53 +1334,6 @@ Name: appstoretroller
 Author: Mineek
 Icon: https://al3raqi.github.io/photo/al3raQee.png
 
-Package: dpkg-dev
-Architecture: iphoneos-arm64e
-Version: 1.21.21
-Priority: optional
-Section: Packaging
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 1800
-Depends: roothide (>= 0.0.6), dpkg (= 1.21.21), libdpkg-perl (= 1.21.21)
-Filename: ./debs//dpkg-dev_1.21.21_iphoneos-arm64e.deb
-Size: 1069622
-MD5sum: 24ae24f10598096851febced4397e4d9
-SHA1: 44ad24dd56e8c2df90a896fec6191cf106e3e514
-SHA256: 7c970dbc23e4bec5d803b10d87e0d98791670a3205e58e89702f1e8f3b2d7818
-SHA512: d2d098155243b17f6927116b69478c7a964a740e9cca7c48dbd64717385fe64dd5032b33f4127224310f23bca1d8c24ad7d9a76cd8b290e3a9458febf3b6d181
-Homepage: http://wiki.debian.org/Teams/Dpkg
-Description: Debian package development tools
- This package provides the development tools (including dpkg-source)
- required to unpack, build and upload Debian source packages.
-Icon: https://al3raqi.github.io/photo/al3raQee.png
-
-Package: dpkg-repack
-Architecture: iphoneos-arm64e
-Version: 1.52
-Priority: standard
-Section: Utilities
-Maintainer: roothide <roothideDev@twitter>
-Installed-Size: 40
-Depends: roothide (>= 0.0.9), perl, libdpkg-perl
-Suggests: fakeroot
-Filename: ./debs//dpkg-repack_1.52_iphoneos-arm64e.deb
-Size: 17382
-MD5sum: 549fbe16fe22c058b2208b8a05eaa55a
-SHA1: 72baf0f0af47fb3eb56b60a440796ffce8e1cc57
-SHA256: 0ee69220b915aa59fa87a23f3f08e4f10e6127d00fd33656dfbd465cc1a79ad5
-SHA512: dbaa65db816a0f2a0c8f42b27154d180c76aa41dc3b676aed8443c4eefb99714016ce13015f6dcae9dab609037220e256b8c263b60a70df2096ba95f5a2d9375
-Description: Debian package archiving tool
- dpkg-repack creates a .deb file out of a package that has already been
- installed. If any changes have been made to the package while it was
- unpacked (i.e. files in /etc were modified), the new package will inherit
- the changes.
- .
- This utility can make it easy to copy packages from one computer to another,
- or to recreate packages that are installed on your system, but no longer
- available elsewhere, or to store the current state of a package before you
- upgrade it.
-Icon: https://al3raqi.github.io/photo/al3raQee.png
-
 Package: dpkg
 Architecture: iphoneos-arm64e
 Version: 1.21.21
@@ -1526,126 +1479,6 @@ Name: MutePlay
 Author: uz.ra
 Icon: https://uz-ra.github.io/icons/MutePlay.png
 
-Package: libdpkg-dev
-Architecture: iphoneos-arm64e
-Version: 1.21.21
-Priority: optional
-Section: Packaging
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 992
-Depends: roothide (>= 0.0.6), liblzma-dev, libzstd-dev
-Filename: ./debs//libdpkg-dev_1.21.21_iphoneos-arm64e.deb
-Size: 327962
-MD5sum: fbc4215620ca28bd26d5949022473c34
-SHA1: 5e982eeb26d992ca54ed7716ebdce4f8db5c3207
-SHA256: 968a10a84880538841900ead62bfeb3a73cdf58b84130b26236aa6c6bfa79673
-SHA512: c91725146a66029cbd9614e46eb746817ef7bfca86ad2c0a6a36cb7eb4a889b115a6f57bc645ae68ca6ed071f571006113f15182e92af694970b8988d513d863
-Homepage: http://wiki.debian.org/Teams/Dpkg
-Description: Debian package management static library
- This package provides the header files and static library necessary to
- develop software using libdpkg, the same library used internally by dpkg.
- .
- Note though, that the API is to be considered volatile, and might change
- at any time, use at your own risk.
-Icon: https://al3raqi.github.io/photo/al3raQee.png
-
-Package: libdpkg-perl
-Architecture: iphoneos-arm64e
-Version: 1.21.21
-Priority: optional
-Section: Packaging
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 1832
-Provides: dpkg-perl (= 1.21.21)
-Depends: roothide (>= 0.0.6), dpkg (= 1.21.21), perl
-Conflicts: dpkg-perl (<<1:0), dpkg-dev (<< 1.21.21)
-Replaces: dpkg-perl
-Filename: ./debs//libdpkg-perl_1.21.21_iphoneos-arm64e.deb
-Size: 446388
-MD5sum: 217c04a0848aef6c8506d7689021b7d9
-SHA1: a2712392ea305095039d32d76058192aa2640724
-SHA256: 2862b7f9ff979e043f2388ed254834d1b603e25a3021fd200fa74b89c1ef16a5
-SHA512: 44ca5bab8683518afc3ee4b6e5cb10f75e9fca82418a088b6feb3962387e65aa2b9400c84b7ba79d2e66ed7706dfb0fb546b6f65578d639f33241ea98be64831
-Homepage: http://wiki.debian.org/Teams/Dpkg
-Description: Dpkg perl modules
- This package provides the perl modules used by the scripts
- in dpkg-dev. They cover a wide range of functionality. Among them
- there are the following public modules:
- .
-  - Dpkg: core variables
-  - Dpkg::Arch: architecture handling functions
-  - Dpkg::Build::Info: build information functions
-  - Dpkg::BuildFlags: set, modify and query compilation build flags
-  - Dpkg::BuildOptions: parse and manipulate DEB_BUILD_OPTIONS
-  - Dpkg::BuildProfiles: parse and manipulate build profiles
-  - Dpkg::Changelog: parse changelogs
-  - Dpkg::Changelog::Entry: represents a changelog entry
-  - Dpkg::Changelog::Parse: generic changelog parser for dpkg-parsechangelog
-  - Dpkg::Checksums: generate and parse checksums
-  - Dpkg::Compression: simple database of available compression methods
-  - Dpkg::Compression::FileHandle: transparently (de)compress files
-  - Dpkg::Compression::Process: wrapper around compression tools
-  - Dpkg::Conf: parse dpkg configuration files
-  - Dpkg::Control: parse and manipulate Debian control information
-    (.dsc, .changes, Packages/Sources entries, etc.)
-  - Dpkg::Control::Changelog: represent fields output by dpkg-parsechangelog
-  - Dpkg::Control::Fields: manage (list of known) control fields
-  - Dpkg::Control::Hash: parse and manipulate a block of RFC822-like fields
-  - Dpkg::Control::Info: parse files like debian/control
-  - Dpkg::Control::Tests: parse files like debian/tests/control
-  - Dpkg::Control::Tests::Entry: represents a debian/tests/control stanza
-  - Dpkg::Deps: parse and manipulate dependencies
-  - Dpkg::Deps::Simple: represents a single dependency statement
-  - Dpkg::Deps::Multiple: base module to represent multiple dependencies
-  - Dpkg::Deps::Union: list of unrelated dependencies
-  - Dpkg::Deps::AND: list of AND dependencies
-  - Dpkg::Deps::OR: list of OR dependencies
-  - Dpkg::Deps::KnownFacts: list of installed and virtual packages
-  - Dpkg::Exit: push, pop and run exit handlers
-  - Dpkg::Gettext: wrapper around Locale::gettext
-  - Dpkg::IPC: spawn sub-processes and feed/retrieve data
-  - Dpkg::Index: collections of Dpkg::Control (Packages/Sources files for
-    example)
-  - Dpkg::Interface::Storable: base object serializer
-  - Dpkg::Path: common path handling functions
-  - Dpkg::Source::Format: manipulate debian/source/format files
-  - Dpkg::Source::Package: extract Debian source packages
-  - Dpkg::Substvars: substitute variables in strings
-  - Dpkg::Vendor: identify current distribution vendor
-  - Dpkg::Version: parse and manipulate Debian package versions
- .
- All the packages listed in Suggests or Recommends are used by some of the
- modules.
-Icon: https://al3raqi.github.io/photo/al3raQee.png
-
-Package: liblzma-dev
-Architecture: iphoneos-arm64e
-Version: 5.4.1
-Priority: standard
-Section: Development
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 908
-Depends: roothide (>= 0.0.6), liblzma5 (>= 5.4.1)
-Conflicts: xz (<<1:0), lzma (<<3:0)
-Replaces: xz, lzma
-Filename: ./debs//liblzma-dev_5.4.1_iphoneos-arm64e.deb
-Size: 360874
-MD5sum: 210a4a41c52933ceb272bb0ec330ab53
-SHA1: 52aadf39142a637efbc399afa1492dd7843a5b52
-SHA256: fdf01137506d417db5c1560c56d656545da00e06da6e87992e7893411a521ad7
-SHA512: 11fc41aa757024c79f4aa514f9240744bc919a9d6ac696853b606ba59530a3cc44f941183007411497e6046618051abc2050f89dee9396ca2e95fb593115109d
-Homepage: https://tukaani.org/xz/
-Description: XZ-format compression library - development files
- XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
- compression format, which provides memory-hungry but powerful
- compression (often better than bzip2) and fast, easy decompression.
- .
- The native format of liblzma is XZ; it also supports raw (headerless)
- streams and the older LZMA format used by lzma. (For 7-Zip's related
- format, use the p7zip package instead.) This package provides the
- development library needed to build programs using liblzma.
-Icon: https://al3raqi.github.io/photo/al3raQee.png
-
 Package: liblzma5
 Architecture: iphoneos-arm64e
 Version: 5.4.1
@@ -1671,26 +1504,6 @@ Description: XZ-format compression library
  The native format of liblzma is XZ; it also supports raw (headerless)
  streams and the older LZMA format used by lzma. (For 7-Zip's related
  format, use the p7zip package instead.)
-Icon: https://al3raqi.github.io/photo/al3raQee.png
-
-Package: libunrar-dev
-Architecture: iphoneos-arm64e
-Version: 6.2.6
-Multi-Arch: foreign
-Priority: optional
-Section: Development
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 1228
-Depends: roothide (>= 0.0.6), libunrar5 (= 6.2.6)
-Filename: ./debs//libunrar-dev_6.2.6_iphoneos-arm64e.deb
-Size: 532760
-MD5sum: 4170ca57a252b9fe310b10d1cd33a56c
-SHA1: e2f32e793e49de2fae38cdf04d19afc93be41256
-SHA256: e051ae190d898247689b63a89e10dce6f7b44e4e1e218f26d1bf68f08b9b99fd
-SHA512: 2b23932d2a6710cb993bdcb935dc1048d56c9f3600dba35b709568444cc005eb85b24c0af2f78ba84f8d9d9060bddc7a1215d52e2f57a4bdd2f936ebf2a310e8
-Homepage: http://www.rarlab.com/rar_add.htm
-Description: Unarchiver for .rar files (non-free version) - development files
- This package contains the static library for the libunrar library.
 Icon: https://al3raqi.github.io/photo/al3raQee.png
 
 Package: libunrar5
