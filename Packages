@@ -1732,14 +1732,14 @@ Section: Networking
 Maintainer: RootHide <RootHideDev@twitter>
 Installed-Size: 3508
 Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libssl3, libcrypt2, libmd0
-Conflicts: openssh (<< 1:0)
-Replaces: openssh (<< 1:0)
+Conflicts: openssh (<< 1.0)
+Replaces: openssh (<< 1.0)
 Filename: ./debs//openssh-client_9.2p1_iphoneos-arm64e.deb
-Size: 754710
-MD5sum: f15ba8d6e7a4a2e442b26423fe37f816
-SHA1: 5ed622ac478569116da0f6d4feb3a56dbf2915d8
-SHA256: f178c962e65862f5c42bd7317cd234b0f61c5e374901a8811a5e89141d4b7f08
-SHA512: 1e277ec6578c056309bb6641c50e6cee3f91af89b217b1076116ecf26c73b4fb93dffdd574ce60359590b78cfcd7aca28dc61af9f80244c0f4c16cf8dbbab014
+Size: 579648
+MD5sum: 9d8319a0794c894f085517dee7d34397
+SHA1: f9957af6d23e2d306169490985106ea7df8651f3
+SHA256: 1515e75501c2992860b51925aacd14c47bcda8593e6c05fa15ac1e77dbf18ecb
+SHA512: e0da104c2454d040e60ed697179ee1f183f65d49c05017a238de0688645ecf5d3837e69f73c82deae42fd438419717fde1e62fcba8604666c31f618e4bfa080d
 Description: secure shell (SSH) client, for secure access to remote machines
 Icon: https://al3raqi.github.io/photo/al3raQee.png
 
@@ -1751,14 +1751,14 @@ Section: Networking
 Maintainer: RootHide <RootHideDev@twitter>
 Installed-Size: 1356
 Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libssl3, openssh-client (= 9.2p1), openssh-sftp-server, libcrypt2, libpam2, libmd0
-Conflicts: com.midnightchips.localhostssh, openssh (<< 1:0)
-Replaces: openssh (<< 1:0)
+Conflicts: com.midnightchips.localhostssh, openssh (<< 1.0)
+Replaces: openssh (<< 1.0)
 Filename: ./debs//openssh-server_9.2p1_iphoneos-arm64e.deb
-Size: 388936
-MD5sum: 5d58e8f1fc610ec02a03859bf0686820
-SHA1: 79db0e846e9ac49e2eb6f753c85aa993d72e4cb9
-SHA256: 7030f44fdbb1851cb6e702c02a60842dff54ac7fcabb80745bf34069757d9c6a
-SHA512: bc8c65b365be5d83ef32cda4c69f385eb46ea88468c7e5a41d33fd2ddb7468242cbdf7c220004238eb41bf76eec7798d8a4ff90087b22e56fd1351801537659d
+Size: 306440
+MD5sum: 277e7347c3e58d9d4f02140de9ee96ad
+SHA1: 9dad120855b65c6c29da161a0dd398c173b22ac5
+SHA256: f976536946f33ffe369da113b8219bfce13e688c4c237a036f3c4edff3626d45
+SHA512: ceb5074c888042664478350a47d820d4ff06b5db2e1920d107f8b3e446db502555849c1db4a64d77052cc80bccb49a65af7c5b9b7f7acbb72d519090419c86c3
 Description: secure shell (SSH) server, for secure access from remote machines
 Icon: https://al3raqi.github.io/photo/al3raQee.png
 
@@ -1770,14 +1770,14 @@ Section: Networking
 Maintainer: RootHide <RootHideDev@twitter>
 Installed-Size: 136
 Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libssl3, openssh-client (= 9.2p1), libcrypt2, libmd0
-Conflicts: openssh (<< 1:0)
-Replaces: openssh (<< 1:0)
+Conflicts: openssh (<< 1.0)
+Replaces: openssh (<< 1.0)
 Filename: ./debs//openssh-sftp-server_9.2p1_iphoneos-arm64e.deb
-Size: 42032
-MD5sum: 6a34ab566d3a68e53006bd282498e3ae
-SHA1: 959ace5202f7b4eba2d2c309e86dc6fe63f961b6
-SHA256: 07670c829ba94722ab69a8457363c0eb737c2e9951cb558668d0ce724a529431
-SHA512: 1318c07f3aabc690b96784b8dd6555219a5e038e4b474f2f84eedf326ba5c842c83136448e9bbc4664da04d06024943536d353e4c85e28bbd7d0fcc4a29dc5ca
+Size: 34364
+MD5sum: 5283bb115a7c48db03d5c2ef4b9aa191
+SHA1: 72d9c1ad6fd917c93a8dfee987ab06e540048485
+SHA256: 45b7b238c55cd7c82beebcf1a106ab6fd32a25604ce4eb6c62bcbc3c135a4749
+SHA512: 98122d6ffa5e17c88576119f14079e701cba1144528343e6d108f1d4ecbe6b9950648e584c301bf6dd30d0df01e1b658ba5390ae24a57721bf2ffd8c7a6b3495
 Description: secure shell (SSH) sftp server module, for SFTP access from remote machines
 Icon: https://al3raqi.github.io/photo/al3raQee.png
 
