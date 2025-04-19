@@ -106,13 +106,3 @@ mv "$TEMP_FILE" "$PACKAGES_FILE"
 
 echo "Icons added where missing ✅"
 exit 0
-
-git add --all
-
-git commit -m "update"
-
-<<<<<<< HEAD
-git push
-=======
-git push
->>>>>>> aa6d6ca378be30a6d9fde441e2c05b6c5de8ea14
