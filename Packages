@@ -1506,26 +1506,6 @@ Description: XZ-format compression library
  format, use the p7zip package instead.)
 Icon: https://al3raqi.github.io/photo/al3raQee.png
 
-Package: libunrar5
-Architecture: iphoneos-arm64e
-Version: 6.2.6
-Multi-Arch: foreign
-Priority: optional
-Section: Libraries
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 400
-Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
-Filename: ./debs//libunrar5_6.2.6_iphoneos-arm64e.deb
-Size: 177892
-MD5sum: 22422600537e20011b3442a249705aa1
-SHA1: 8708ecf08f66650ec16c4cd2f14a8bf3394a8df5
-SHA256: 45f322216ee54b926e72ae43fdcf18ce3c78e0cfb40d72388947aac801cfb132
-SHA512: c559ee2bbf885335c286823177367b8b4c13445323d25d161d4e32bda3a708ec4cba206b44ef2db8d032ce4aa22820c7d21cd399eef5a040dad63ebf2f307aba
-Homepage: http://www.rarlab.com/rar_add.htm
-Description: Unarchiver for .rar files (non-free version) - shared library
- library for unarchiving .rar files
-Icon: https://al3raqi.github.io/photo/al3raQee.png
-
 Package: me.lau.atria
 Architecture: iphoneos-arm64e
 Version: 1.4.1
@@ -1803,18 +1783,18 @@ Icon: https://al3raqi.github.io/photo/al3raQee.png
 
 Package: openssh
 Architecture: iphoneos-arm64e
-Version: 1:0
+Version: 1.0
 Priority: important
 Section: Networking
 Maintainer: RootHide <RootHideDev@twitter>
 Installed-Size: 8
 Depends: roothide (>= 0.0.6), openssh-client, openssh-server, openssh-sftp-server
-Filename: ./debs//openssh_1:0_iphoneos-arm64e.deb
-Size: 3402
-MD5sum: fc30458b171b209a0b671890172f0c8a
-SHA1: 25a89788c09024ce9a7fcabba069bb3c368bd80c
-SHA256: 13266678da1b856663ea9f09e0607873be818b29c66a32b66964f3d929ea9643
-SHA512: 02bf51996303409508fecd668d920986751af240cde0bfccaefbe08b5db70b699a7f12d4643d8a5cb96c1f917099cf0e562c42c03d74e1e0d283f7d900b01bfd
+Filename: ./debs//openssh_1.0_iphoneos-arm64e.deb
+Size: 3572
+MD5sum: 5d7285e28a2e3da0d09a9573d03d0dc5
+SHA1: f8bcb384abb2c8d9d91483991e279b59a29bbeb1
+SHA256: 4e2315c3cd0f524c8df45272752eed83b0589a2390223c6568d4eed2a7eed504
+SHA512: 236430792777482bddd6c953a863f5a9056724fa633c490d4c216bed7acce83a7af29be35ea2916448ff769114b7ffa8134db589ee1dffd44b17228a1ab3fce6
 Description: secure shell client and server (metapackage)
 Icon: https://al3raqi.github.io/photo/al3raQee.png
 
